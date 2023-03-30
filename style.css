@@ -1,0 +1,43 @@
+:root{
+    --bs-green: #269846;
+}
+.display form{
+    width: 100% !important;
+}
+body{
+    background-image: url(./images/pexels-photo-235985.jpeg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+}
+.container{
+    height: 100vh;
+}
+label{
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+}
+input{
+    border: none;
+    border-radius: 20px;
+    border-width: 300px !important;
+}
+button{
+    border: none;
+    background-color: #269846;
+    border-radius: 20px;
+    height: 40px;
+    width: 200px;
+    color: white;
+}
+#result{
+    background-color: #269846;
+    border-radius: 10px;
+    margin-top: 10px;
+    width: 200px;
+    padding: 10px 20px !important;
+    color: white;
+}
